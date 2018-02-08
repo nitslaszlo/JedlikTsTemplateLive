@@ -1,4 +1,4 @@
-V S Code +  TypeScript + Live Server - TSLint
+VS Code +  TypeScript + Live Server - TSLint
 =============================================
 A.  Fejlesztői környezet telepítése, beállítása
 ================================================
