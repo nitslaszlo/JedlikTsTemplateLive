@@ -1,7 +1,5 @@
-VS Code +  TypeScript + Live Server - TSLint
-=============================================
-A.  Fejlesztői környezet telepítése, beállítása
-================================================
+# VS Code +  TypeScript + Live Server + TSLint
+## A.  Fejlesztői környezet telepítése, beállítása
 1.  Node.js letöltése, telepítése:
     https://nodejs.org/en/download/
 2.  Node.js command prompt, globális Node.js csomagok telepítése:
@@ -40,8 +38,7 @@ B.  Projekt előkészítése (inicializálása)
     Átnevezett mappa helyi menüből: Open with Code,
     vagy a VSCode indítása után File/Open Folder... menüpontba a project mappa megnyitása
 
-C.  Fejlesztés, tesztelés, kilépés
-===================================
+## C.  Fejlesztés, tesztelés, kilépés
 1.  VSCode indítása (utoljára megnyitott projektet visszatölti), vagy
     Project mappa helyi menüből: Open with Code, vagy
     VSCode indítása után File/Open Folder... menüpontba a project mappa megnyitása
@@ -55,29 +52,25 @@ C.  Fejlesztés, tesztelés, kilépés
     vagy tesztelés debug üzemmódban: F5 -el
 6.  goto 4.pont :-)
 
-D. Verziók lekérdezése terminálablakból:
-=========================================
+## D. Verziók lekérdezése terminálablakból:
 TypeScript: tsc -v
 Node.js: node -v
 git: git --version
 npm: npm -v
 
-E. Komponensek frissítése
-==========================
+## E. Komponensek frissítése
 VSCode: Automatikus, balra lent a fogaskeréken jelzi, ha új verzió jön ki
 VSCode kiterjesztések: Automatikus, balra az Extensions ikon jelzi, ha új verzió jön ki
 TypeScript: npm update -g typescript
 Node.js: npm install --save-dev @types/node
 
-F. Hasznos linkek:
-=================
+## F. Hasznos linkek:
 http://pgl.ilinov.eu/
 https://git-scm.com/book/en/v2
 https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 https://fonts.google.com/
 
-G. Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
-==============================================================
+## G. Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
 1. Github account létrehozása:
    https://github.com/
    (nitslaszlo az account név a példában)
@@ -99,15 +92,7 @@ G. Verziókezelés Git-el VS Code-ban (nagyon alap, opcionális):
    Alul a státus sorban balra "Synchronize Changes" -ra kattínt
 
    
-H. Verziók lekérdezése terminálablakból:
-=========================================
-TypeScript: tsc -v
-Node.js: node -v
-git: git --version
-npm: npm -v
-
-I. VS Code editor beállítása:
-==============================
+## H. VS Code editor beállítása:
 1. Ctrl-Shift-P vagy F1
 2. "Preferen..." gépelése
 3. Preferences: "Open Workplace Settings" a projektben tárolt beállításokhoz (ez az erősebb) vagy
